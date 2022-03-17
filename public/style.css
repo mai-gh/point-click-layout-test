@@ -11,15 +11,17 @@
 
 body{
   background-color: #000000;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 
 main {
-  margin: auto;
   width: 1250px;
-  height: 550px;
-  top: 50%;
-  margin-top: 40px;
+  height: 530px;
   background-color: #444444;
   position:relative;
  }
@@ -29,7 +31,6 @@ nav {
   position:absolute;
   bottom:0;
   height: 70px;
-  margin-top: 404px;
   width: 1250px;
   background-color: #222222;
   }
